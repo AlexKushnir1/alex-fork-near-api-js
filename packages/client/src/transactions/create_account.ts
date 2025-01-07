@@ -34,8 +34,8 @@ export async function createTopLevelAccount({ account, contract, newAccount, new
 /**
  * Create a new sub-account under an existing account
  *  (e.g. create `sub.new.near` by signing with `new.near`)
- * @param account name of the existing account under which the new account is created
- * @param newAccount name of the created account
+ * @param account name of the existing account under which the new account is created (e.g. `new.near`)
+ * @param newAccount name of the created account (e.g. `sub.new.near`)
  * @param newPublicKey public key for the created account's initial full access key
  * @param initialBalance initial account balance in yN
  * @param blockReference block ID/finality
